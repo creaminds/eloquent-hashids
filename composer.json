@@ -1,5 +1,5 @@
 {
-    "name": "mtvs/eloquent-hashids",
+    "name": "creaminds/eloquent-hashids",
     "description": "On-the-fly hashids for Laravel Eloquent models.",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "illuminate/database": "^8.0|^9.0|^10.0",
-        "vinkla/hashids": "^9.0|^10.0|^11.0"
+        "creaminds/laravel-hashids": "*"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0|^7.0|^8.0",
@@ -20,15 +20,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Mtvs\\EloquentHashids\\": "src/"
+            "Creaminds\\EloquentHashids\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mtvs\\EloquentHashids\\Tests\\": "tests/"
+            "Creaminds\\EloquentHashids\\Tests\\": "tests/"
         }
     },
     "scripts": {
         "test": "phpunit"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:creaminds/laravel-hashids.git"
+        }
+    ]
 }

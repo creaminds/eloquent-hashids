@@ -1,6 +1,6 @@
 <?php
 
-namespace Mtvs\EloquentHashids;
+namespace Creaminds\EloquentHashids;
 
 use Illuminate\Support\Str;
 

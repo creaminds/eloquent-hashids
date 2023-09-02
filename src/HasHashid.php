@@ -1,12 +1,12 @@
 <?php
 
-namespace Mtvs\EloquentHashids;
+namespace Creaminds\EloquentHashids;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use InvalidArgumentException;
-use Vinkla\Hashids\Facades\Hashids;
+use Creaminds\Hashids\Facades\Hashids;
 
 /**
  * @method Model|null findByHashid($hashid)
